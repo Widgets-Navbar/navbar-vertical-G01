@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/jquery.min.js"></script>
+</head>
+<body>
+
+
+   <!-- NAVBAR  -->
+<nav id="primary_nav">
+    <a href="#" id="mobile_nav">&#9776;</a>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Dépenses</a></li>
+                <li><a href="#">Musical</a></li>
+                <li><a href="#">Illustrations</a></li>
+                <li><a href="#">3D</a></li>
+                <li><a href="#">Vidéo</a></li>
+            </ul>
+        </nav>
+
+
+    <!-- CSS  -->
+    <style>
+    
+    @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+    body{
+      margin:0;
+      padding:0;
+      font-family: 'Helvetica';
+      background: none;
+    }
+    h1, h3{
+      font-family: 'Poiret One', cursive;
+    }
+    #navbar{
+      overflow:hidden;
+          width:200px;
+          height:100%;
+          position:fixed;
+          background-color:#FFFFFF;
+          top:0;
+          left:0;
+          z-index:499;
+    }
+    #primary_nav{
+          top:0px;
+          position: fixed;
+          display: block;
+          left: -115px;
+          width: 170px;
+          height: 100%;
+          background:rgba(43,150,182,.33);
+          z-index:500;
+    }
+    #primary_nav ul{
+          display: block;
+          margin-top:80px;
+          padding-left: 5px;
+          list-style: none;
+    }
+    #primary_nav ul li a{
+          display: block;
+          padding:0 0 25px 20px;
+          color: #FFF;
+          font-weight:bold;
+          font-size:15px;
+          text-decoration: none;
+          -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+    #primary_nav ul li a:hover, #primary_nav ul li a:active{
+          color: #434244;
+          padding-left:17px;
+          text-decoration: none;
+          -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+    #mobile_nav{
+          font-size:36px;
+          position: relative;
+          display: inline-block;
+          top:10px;
+          left:127px;
+      color: #FFF;
+          text-decoration: none;
+      z-index:1000;
+    }
+    #mobile_nav:hover{
+          color: #434244;
+    }
+    
+    </style> 
+    <script src="/script.js"></script>
+    
+</body>
+</html>
